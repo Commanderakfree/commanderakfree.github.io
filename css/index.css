@@ -1,6 +1,5 @@
-
 body {
-  background-color: lightblue;
+  background-color: whitesmoke;
 }
 
 p:hover {
@@ -8,7 +7,8 @@ p:hover {
 }
 
 head {
-  background-color: powderblue;
+  background-color: lightcyan;
+  -webkit-transition: background-color .5s;
   transition: background-color .5s;
 }
 
@@ -17,6 +17,9 @@ a:hover {
 }
 
 :hover {
+  -webkit-transition: 300ms;
   transition: 300ms;
-  transform: rotate(odem);
+  -webkit-transform: rotate(odem);
+          transform: rotate(odem);
 }
+/*# sourceMappingURL=index.css.map */

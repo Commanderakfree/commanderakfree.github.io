@@ -1,18 +1,26 @@
-
-p:hover {
-  background-color: blanchedalmond;
+#container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
-head {
-  background-color: powderblue;
-  transition: background-color .5s;
+@media (min-width: 850px) {
+  #container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-a:hover {
-  background-color: gold;
+div {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-:hover {
-  transition: 300ms;
-  transform: rotate(odem);
-}
+/*# sourceMappingURL=menu.css.map */
