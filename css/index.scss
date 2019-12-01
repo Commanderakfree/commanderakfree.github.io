@@ -15,7 +15,7 @@ Dark Orange: #b45b28b6
 
 body {
   font-family: "lato";
-  font-weight: 600;
+  font-weight: 525;
   font-size: 16px;
   line-height: 1.7;
   color: #ffffff;
@@ -195,6 +195,7 @@ body {
 .btn-white {
   background-color: #ffffff;
   color: #777777;
+  font-size: 75px;
 }
 
 .menu {
@@ -226,8 +227,6 @@ body {
 .btn::after {
   content: "";
   display: inline-block;
-  height: 100%;
-  width: 100%;
   border-radius: 100px;
 }
 
@@ -243,7 +242,7 @@ body {
   -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
   background-color: rgb(121, 91, 101);
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 5vh 5vw 5vh 5vw;
   font-family: "lato", sans-serif;
 }
@@ -251,3 +250,4 @@ body {
 #footer-container #Rfooter-column {
   text-align: right;
 }
+
