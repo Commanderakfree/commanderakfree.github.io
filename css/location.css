@@ -131,12 +131,10 @@ html, body {
   grid-template-columns: 45vw 45vw;
   -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
-  background-color: #795b65;
+  background-color: #b696a0;
   font-size: 1rem;
   padding: 5vh 5vw 5vh 5vw;
   font-family: "lato", sans-serif;
-  -webkit-text-emphasis-color: white;
-          text-emphasis-color: white;
 }
 
 #footer-container #Rfooter-column {
